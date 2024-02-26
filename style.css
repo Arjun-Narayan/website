@@ -1,0 +1,151 @@
+@media (max-width: 800px){
+    #header > .flex-container{
+        position: relative;
+        width: 80%;
+        left: 10%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5%;
+    }
+
+    #features > .flex-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex-container > *{
+        margin-top: 30px;
+    }
+
+    #footer .flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer .flex-container > .secondary-flex-container > .tertiary-flex-container{
+        display: flex;
+        justify-content: center;
+        gap: 2px;
+    }
+}
+
+section{
+    margin-top: 100px;
+}
+
+#navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin-top: 0;
+    z-index: 100;
+}
+
+#navbar img{
+    height: 25px;
+    margin-right: 7px;
+}
+
+#header img{
+    height: 500px;
+}
+
+#header > .flex-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+#header  .secondary-flex-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.secondary-flex-container > *{
+    text-align: center;
+}
+
+#features > .flex-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+#features > h1, #carousel > h1, #projects > h1{
+    text-align: center;
+}
+
+.flex-container > *{
+    flex-basis: 20%;
+}
+
+#carousel{
+    width: 70vw;
+    position: relative;
+    left: 15%;
+}
+
+#footer .flex-container{
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+}
+
+#footer .footer-text{
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+}
+
+#footer form.secondary-flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+#footer form.secondary-flex-container > *{
+    flex-basis: 100%;
+}
+
+#footer .tertiary-flex-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#footer .tertiary-flex-container > *{
+    flex-basis: 50%;
+    min-width: 100px;
+}
+
+#footer h5{
+    text-align: center;
+}
+
+#footer p > a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+#footer form textarea{
+    flex-basis: 1000px;
+}
+
+#footer form *{
+    text-align: left;
+}
